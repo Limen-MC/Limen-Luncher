@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "nyven",
+  "version": "1.6.1",
+  "name": "Nyven · LIMEN",
+  "description": "Connexion Limen chiffrée, accueil animé, camp, musique et Discord.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "studio.limen.nyven.client.NyvenClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "license": "All-Rights-Reserved",
+  "authors": [
+    "SannaStudio"
+  ]
+}

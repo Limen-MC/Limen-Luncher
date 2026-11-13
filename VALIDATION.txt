@@ -1,0 +1,50 @@
+LIMEN Launcher 3.3.0 — vérifications du 13 novembre 2026
+14 tests Node réussis, ESLint réussi. Nyven 1.5 et Fabric réellement inclus.
+Tests du compte local : pseudo, UUID hors ligne déterministe, absence de mot de passe stocké.
+Contrôle de l'intégrité SHA-256 des JAR et absence de clé privée/signature serveur dans le ZIP public.
+Tests exécutés sous Node 24.22.1 ; Node 22 reste la version configurée pour le build du launcher.
+Pas de build .exe Windows ni de connexion réelle à Minecraft/Microsoft durant cette mise à jour.
+Aucun push GitHub ni déploiement serveur.
+
+Historique des vérifications antérieures :
+
+LIMEN Launcher 3.1.2 — vérifications du 11 novembre 2026
+
+8 tests Node réussis : catalogue local et adresse ; client.jar et arguments
+Vanilla sans mutation ; rejet des téléchargements corrompus ; reconnexion
+Discord ; rendu EJS et chemins de médias ; démarrage sans configuration de
+mods ; fermeture en chargement, annulation du timer et masquage des tokens.
+
+ESLint : aucune erreur, aucun avertissement.
+Electron 39.2.7 : démarrage, bienvenue, connexion, actualités, paramètres,
+absence de formulaire d'identité Discord dans les paramètres, accueil
+1280x820 et 1000x720 sans débordement horizontal ; diagnostics affichés
+sans interprétation HTML. Les captures propres sont dans docs/.
+
+Trois WebM VP9 avec canal alpha : Logo, Embleme, Particules.
+Décodage libvpx-vp9, alpha extrait : valeurs de 0 à 255.
+Assemblage Linux --dir effectué (pas un installateur Windows).
+Environnement : Linux, Node 24.22.1, Electron 39.2.7.
+Node 22 LTS recommandé pour utiliser/construire le projet.
+
+La panne exacte du PC n'est pas établie : les vidéos montrent surtout
+Paladium et ne contiennent pas le journal de lancement LIMEN.
+Corrections de code réelles, mais aucune authentification Microsoft réelle,
+aucun téléchargement complet/lancement Minecraft, aucune connexion au
+serveur ni présence sur compte Discord réel validés ici.
+La résolution DNS du serveur échoue dans cet environnement (EAI_AGAIN).
+Installateur Windows à compiler et essayer sous Windows.
+Aucun push GitHub ni publication de release.
+
+Correctif CSS 3.1.1 : sept onglets, accueil et journal long contrôlés
+à 1920x1032, 1280x820, 1000x720. Aucun débordement horizontal
+des sections de paramètres ; bouton Terminé et action du dialogue
+dans la fenêtre. Badge de compte et bannière des actualités alignés.
+Nouveau test : extraction native terminée avant retour, DLL disponible
+et JAR natif présent dans le classpath. Pas de lancement Windows réel.
+
+Version 3.1.2 : adresse absente des vues, formulaire Discord retiré,
+ID intégré au projet et anciennes préférences ignorées. Tests RPC
+avec un ID reçu contradictoire : l'ID du projet est utilisé.
+Page actualités : sélection du deuxième article, recherche sans résultat,
+réinitialisation et retour accueil. Contrôle à trois dimensions.

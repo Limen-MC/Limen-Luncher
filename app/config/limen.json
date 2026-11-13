@@ -1,0 +1,35 @@
+{
+  "name": "LIMEN",
+  "tagline": "Entre ange et démon.",
+  "server": {
+    "id": "limen-main",
+    "address": "txadmin.sanna.studio:30121",
+    "minecraftVersion": "26.3",
+    "javaMajor": 25
+  },
+  "websiteUrl": "https://limen-mc.fr",
+  "discordInvite": "",
+  "shopUrl": "",
+  "newsUrl": "",
+  "azureClientId": "",
+  "discord": {
+    "enabled": true,
+    "clientId": "1568217784523956376",
+    "largeImageKey": "limen",
+    "largeImageText": "LIMEN — Entre ange et démon",
+    "details": "Sur LIMEN Serveur",
+    "state": "Survie • Communauté • Aventure"
+  },
+  "news": [
+    {
+      "label": "L'AVENTURE LIMEN",
+      "title": "Deux univers. Une seule aventure.",
+      "text": "Explore le monde, développe tes projets et retrouve la communauté LIMEN."
+    },
+    {
+      "label": "LA COMMUNAUTÉ",
+      "title": "Tout commence ensemble.",
+      "text": "Prépare ta prochaine session et découvre les nouvelles du serveur."
+    }
+  ]
+}

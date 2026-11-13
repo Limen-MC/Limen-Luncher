@@ -1,0 +1,343 @@
+[ejs.landing]
+updateAvailableTooltip = "Mise à jour disponible"
+usernamePlaceholder = "Mon compte"
+usernameEditButton = "Modifier"
+settingsTooltip = "Paramètres"
+serverStatus = "Serveur"
+serverStatusPlaceholder = "Indisponible"
+mojangStatus = "Services Minecraft"
+mojangStatusTooltipTitle = "Services"
+mojangStatusNETitle = "Services secondaires"
+newsButton = "Nouvelles"
+launchButton = "Jouer"
+launchButtonPlaceholder = "Aucun serveur sélectionné"
+launchDetails = "Préparation…"
+newsNavigationStatus = "{currentPage} sur {totalPages}"
+newsErrorLoadSpan = "Recherche des nouvelles…"
+newsErrorFailedSpan = "Impossible de charger les nouvelles"
+newsErrorRetryButton = "Réessayer"
+newsErrorNoneSpan = "Aucune nouvelle pour le moment"
+
+[ejs.login]
+loginCancelText = "Annuler"
+loginSubheader = "CONNEXION MINECRAFT"
+loginEmailError = "* Valeur invalide"
+loginEmailPlaceholder = "COURRIEL OU PSEUDONYME"
+loginPasswordError = "* Champ obligatoire"
+loginPasswordPlaceholder = "MOT DE PASSE"
+loginForgotPasswordLink = "https://minecraft.net/password/forgot/"
+loginForgotPasswordText = "Mot de passe oublié ?"
+loginRememberMeText = "Se souvenir de moi"
+loginButtonText = "SE CONNECTER"
+loginNeedAccountLink = "https://minecraft.net/store/minecraft-java-edition/"
+loginNeedAccountText = "Acheter Minecraft"
+loginPasswordDisclaimer1 = "Le mot de passe est transmis au service d’authentification et n’est pas enregistré."
+loginPasswordDisclaimer2 = "{appName} n’est pas affilié à Mojang ou Microsoft."
+
+[ejs.loginOptions]
+loginOptionsTitle = "Retrouve ton aventure."
+loginWithMicrosoft = "Se connecter avec Microsoft"
+loginWithMojang = "Connexion Mojang"
+cancelButton = "Annuler"
+
+[ejs.overlay]
+serverSelectHeader = "Ton serveur"
+serverSelectConfirm = "Sélectionner"
+serverSelectCancel = "Annuler"
+accountSelectHeader = "Choisir un compte"
+accountSelectConfirm = "Sélectionner"
+accountSelectCancel = "Annuler"
+
+[ejs.settings]
+navHeaderText = "Paramètres"
+navAccount = "Compte"
+navMinecraft = "Minecraft"
+navMods = "Mods"
+navJava = "Java et mémoire"
+navLauncher = "Launcher"
+navAbout = "À propos"
+navUpdates = "Mises à jour"
+navDone = "Terminé"
+tabAccountHeaderText = "Tes comptes"
+tabAccountHeaderDesc = "Ajoute un compte Microsoft ou gère les comptes déjà enregistrés."
+microsoftAccount = "Microsoft"
+addMicrosoftAccount = "+ Ajouter un compte Microsoft"
+mojangAccount = "Mojang"
+addMojangAccount = "+ Ajouter un compte Mojang"
+minecraftTabHeaderText = "Réglages Minecraft"
+minecraftTabHeaderDesc = "Personnalise le démarrage et la fenêtre du jeu."
+gameResolutionTitle = "Résolution du jeu"
+launchFullscreenTitle = "Lancer en plein écran"
+autoConnectTitle = "Rejoindre automatiquement LIMEN au lancement"
+launchDetachedTitle = "Garder le jeu ouvert si le launcher est fermé"
+launchDetachedDesc = "Pour conserver l’activité Discord LIMEN, laisse le launcher ouvert pendant la session."
+tabModsHeaderText = "Mods et packs"
+tabModsHeaderDesc = "Gère les fichiers de ton profil. Un chargeur compatible est nécessaire pour utiliser des mods."
+switchServerButton = "Changer"
+requiredMods = "Mods obligatoires"
+optionalMods = "Mods facultatifs"
+dropinMods = "Mods ajoutés manuellement"
+addMods = "Ouvrir le dossier des mods"
+dropinRefreshNote = "(F5 pour actualiser)"
+shaderpacks = "Packs de shaders"
+shaderpackDesc = "Les shaders nécessitent un client compatible et une configuration adaptée."
+selectShaderpack = "Choisir un pack de shaders"
+tabJavaHeaderText = "Java et mémoire"
+tabJavaHeaderDesc = "Règle la mémoire allouée au jeu et l’installation de Java."
+memoryTitle = "Mémoire"
+maxRAM = "Mémoire maximale"
+minRAM = "Mémoire minimale"
+memoryDesc = "Alloue une quantité adaptée à ton PC. Garde suffisamment de mémoire pour Windows et tes autres applications."
+memoryTotalTitle = "Total"
+memoryAvailableTitle = "Disponible"
+javaExecutableTitle = "Exécutable Java"
+javaExecSelDialogTitle = "Choisir l’exécutable Java"
+javaExecSelButtonText = "Choisir un fichier"
+javaExecDesc = "La compatibilité de Java est vérifiée avant le lancement."
+javaPathDesc = "Le chemin doit se terminer par <strong>{pathSuffix}</strong>."
+jvmOptsTitle = "Options Java supplémentaires"
+jvmOptsDesc = "Options avancées transmises à Java. Ne pas inclure <em>-Xms</em> ou <em>-Xmx</em>."
+launcherTabHeaderText = "Réglages du launcher"
+launcherTabHeaderDesc = "Personnalise ton installation LIMEN."
+allowPrereleaseTitle = "Autoriser les versions de test"
+allowPrereleaseDesc = "Les versions de test peuvent contenir des fonctionnalités encore en développement."
+dataDirectoryTitle = "Dossier du jeu"
+selectDataDirectory = "Choisir le dossier du jeu"
+chooseFolder = "Choisir un dossier"
+dataDirectoryDesc = "Les fichiers Minecraft et Java sont enregistrés ici. Les captures et sauvegardes sont dans le dossier de l’instance LIMEN."
+aboutTabHeaderText = "À propos de LIMEN"
+aboutTabHeaderDesc = "Informations sur le launcher et sa version."
+aboutTitle = "{appName}"
+stableRelease = "Version stable"
+versionText = "Version "
+sourceGithub = "Code source GitHub"
+support = "Assistance"
+devToolsConsole = "Console développeur"
+releaseNotes = "Notes de version"
+changelog = "Historique des changements"
+noReleaseNotes = "Aucune note de version"
+viewReleaseNotes = "Voir les notes sur GitHub"
+launcherUpdatesHeaderText = "Mises à jour"
+launcherUpdatesHeaderDesc = "Consulte les nouvelles versions du launcher LIMEN."
+checkForUpdates = "Vérifier les mises à jour"
+whatsNew = "Nouveautés"
+updateReleaseNotes = "Notes de mise à jour"
+
+[ejs.waiting]
+waitingText = "Connexion Microsoft en cours…"
+
+[ejs.welcome]
+continueButton = "DÉCOUVRIR LIMEN"
+
+[js.discord]
+waiting = "Préparation de la session"
+state = "Serveur : {shortId}"
+
+[js.index]
+microsoftLoginTitle = "LIMEN — Connexion Microsoft"
+microsoftLogoutTitle = "LIMEN — Déconnexion Microsoft"
+
+[js.login]
+login = "SE CONNECTER"
+loggingIn = "CONNEXION…"
+success = "CONNECTÉ"
+tryAgain = "Réessayer"
+
+[js.login.error]
+invalidValue = "* Valeur invalide"
+requiredValue = "* Champ obligatoire"
+
+[js.login.error.unknown]
+title = "Échec de la connexion"
+desc = "Une erreur est survenue pendant la connexion. Consulte la console pour plus de détails."
+
+[js.landing.launch]
+pleaseWait = "Préparation…"
+failureTitle = "Le jeu n’a pas pu démarrer"
+failureText = "Consulte la console (Ctrl + Maj + I) pour plus de détails."
+okay = "Compris"
+
+[js.landing.selectedAccount]
+noAccountSelected = "Aucun compte sélectionné"
+
+[js.landing.selectedServer]
+noSelection = "Aucun serveur sélectionné"
+loading = "Chargement…"
+
+[js.landing.serverStatus]
+server = "Serveur"
+offline = "Indisponible"
+players = "Joueurs en ligne"
+
+[js.landing.systemScan]
+checking = "Vérification de Java…"
+noCompatibleJava = "Java compatible introuvable"
+installJavaMessage = "Minecraft nécessite Java {major} en 64 bits. Veux-tu l’installer automatiquement ?"
+installJava = "Installer Java"
+installJavaManually = "Installation manuelle"
+javaDownloadPrepare = "Préparation du téléchargement de Java…"
+javaDownloadFailureTitle = "Impossible de télécharger Java"
+javaDownloadFailureText = "Vérifie ta connexion, puis réessaie. Détails dans la console (Ctrl + Maj + I)."
+javaRequired = "Java est nécessaire"
+javaRequiredMessage = "Installe Java {major} en 64 bits, puis sélectionne son exécutable dans les paramètres Java."
+javaRequiredDismiss = "Compris"
+javaRequiredCancel = "Retour"
+
+[js.landing.downloadJava]
+findJdkFailure = "Aucune distribution OpenJDK compatible trouvée."
+javaDownloadCorruptedError = "L’intégrité du fichier Java n’est pas valide. Réessaie le téléchargement."
+extractingJava = "Installation de Java…"
+javaInstalled = "Java est installé !"
+
+[js.landing.dlAsync]
+loadingServerInfo = "Chargement du profil LIMEN…"
+fatalError = "Impossible de continuer"
+unableToLoadDistributionIndex = "Le profil LIMEN n’a pas pu être chargé. Consulte la console."
+pleaseWait = "Préparation…"
+errorDuringLaunchTitle = "Le jeu n’a pas pu démarrer"
+seeConsoleForDetails = "Détails dans la console (Ctrl + Maj + I)."
+validatingFileIntegrity = "Vérification des fichiers Minecraft…"
+errorDuringFileVerificationTitle = "Impossible de vérifier les fichiers"
+downloadingFiles = "Téléchargement de Minecraft…"
+errorDuringFileDownloadTitle = "Téléchargement interrompu"
+preparingToLaunch = "Préparation de Minecraft…"
+launchingGame = "Démarrage de Minecraft…"
+launchWrapperNotDownloaded = "Un fichier de lancement manque. Vérifie ta connexion et réessaie le téléchargement."
+doneEnjoyServer = "Bon jeu sur LIMEN !"
+checkConsoleForDetails = "Consulte la console (Ctrl + Maj + I) pour plus de détails."
+
+[js.landing.news]
+checking = "Recherche des nouvelles…"
+
+[js.landing.discord]
+loading = "Minecraft sur LIMEN"
+joining = "Connexion au monde LIMEN"
+joined = "Sur LIMEN Serveur"
+
+[js.overlay]
+dismiss = "Fermer"
+
+[js.settings.fileSelectors]
+executables = "Exécutables"
+allFiles = "Tous les fichiers"
+
+[js.settings.mstfLogin]
+errorTitle = "Connexion Microsoft interrompue"
+errorMessage = "La connexion Microsoft n’a pas abouti. Réessaie dans quelques instants."
+okButton = "Compris"
+
+[js.settings.mstfLogout]
+errorTitle = "Connexion Microsoft interrompue"
+errorMessage = "La connexion Microsoft n’a pas abouti. Réessaie dans quelques instants."
+okButton = "Compris"
+
+[js.settings.authAccountSelect]
+selectButton = "Choisir ce compte"
+selectedButton = "Compte sélectionné ✓"
+
+[js.settings.authAccountLogout]
+lastAccountWarningTitle = "Déconnecter le dernier compte ?"
+lastAccountWarningMessage = "Tu devras te reconnecter avec Microsoft pour jouer à nouveau. Veux-tu continuer ?"
+confirmButton = "Se déconnecter"
+cancelButton = "Annuler"
+
+[js.settings.authAccountPopulate]
+username = "Pseudonyme"
+uuid = "UUID"
+selectAccount = "Choisir ce compte"
+selectedAccount = "Compte sélectionné ✓"
+logout = "Se déconnecter"
+
+[js.settings.dropinMods]
+removeButton = "Retirer"
+deleteFailedTitle = "Impossible de supprimer {fullName}"
+deleteFailedMessage = "Vérifie que le fichier n’est pas utilisé, puis réessaie."
+failedToggleTitle = "Impossible de modifier l’état de certains mods"
+okButton = "Compris"
+
+[js.settings.serverListing]
+mainServer = "Serveur principal"
+
+[js.settings.java]
+selectedJava = "Sélection : Java {version} ({vendor})"
+invalidSelection = "Sélection incompatible"
+requiresJava = "Java {major} en 64 bits requis."
+availableOptions = "Installations Java {major} compatibles"
+
+[js.settings.about]
+preReleaseTitle = "Version de test"
+stableReleaseTitle = "Version stable"
+releaseNotesFailed = "Impossible de charger les notes de version."
+
+[js.settings.updates]
+newReleaseTitle = "Nouvelle version disponible"
+newPreReleaseTitle = "Nouvelle version de test disponible"
+downloadingButton = "Téléchargement…"
+downloadButton = "Télécharger sur GitHub"
+latestVersionTitle = "Ton launcher est à jour"
+checkForUpdatesButton = "Vérifier les mises à jour"
+checkingForUpdatesButton = "Recherche des mises à jour…"
+
+[js.settings.msftLogin]
+errorTitle = "Connexion Microsoft interrompue"
+errorMessage = "La connexion Microsoft n’a pas abouti. Réessaie dans quelques instants."
+okButton = "Compris"
+
+[js.uibinder.startup]
+fatalErrorTitle = "Impossible de charger le profil LIMEN"
+fatalErrorMessage = "Le fichier de configuration local n’a pas pu être chargé. Vérifie l’installation du launcher, puis redémarre-le."
+closeButton = "Fermer"
+
+[js.uibinder.validateAccount]
+failedMessageTitle = "Ta connexion a expiré"
+failedMessage = "Impossible de renouveler la connexion de <strong>{account}</strong>. Reconnecte-toi avec Microsoft."
+failedMessageSelectAnotherAccount = "Reconnecte le compte <strong>{account}</strong> avec Microsoft pour continuer."
+loginButton = "Se reconnecter"
+selectAnotherAccountButton = "Choisir un autre compte"
+
+[js.uicore.autoUpdate]
+checkingForUpdateButton = "Recherche des mises à jour…"
+installNowButton = "Installer maintenant"
+checkForUpdatesButton = "Vérifier les mises à jour"
+
+[js.auth.microsoft.error]
+noProfileTitle = "Profil Minecraft absent"
+noProfileDesc = "Ce compte Microsoft n’a pas encore de profil Minecraft Java. Configure ton pseudonyme sur Minecraft.net après l’achat du jeu."
+noXboxAccountTitle = "Compte Xbox absent"
+noXboxAccountDesc = "Aucun profil Xbox n’est associé à ce compte Microsoft."
+xblBannedTitle = "Xbox Live indisponible"
+xblBannedDesc = "Xbox Live n’est pas disponible pour ce compte ou dans sa région."
+under18Title = "Autorisation parentale requise"
+under18Desc = "Ce compte doit être ajouté à une famille Microsoft par un adulte."
+unknownTitle = "Échec de la connexion Microsoft"
+unknownDesc = "Une erreur est survenue. Consulte la console pour obtenir les détails."
+
+[js.auth.mojang.error]
+methodNotAllowedTitle = "Méthode de connexion indisponible"
+methodNotAllowedDesc = "Utilise la connexion Microsoft."
+notFoundTitle = "Service de connexion introuvable"
+notFoundDesc = "Le service de connexion n’a pas été trouvé. Utilise Microsoft."
+accountMigratedTitle = "Compte transféré vers Microsoft"
+accountMigratedDesc = "Ce compte utilise maintenant la connexion Microsoft."
+invalidCredentialsTitle = "Identifiants invalides"
+invalidCredentialsDesc = "Le courriel ou le mot de passe est incorrect."
+tooManyAttemptsTitle = "Trop de tentatives de connexion"
+tooManyAttemptsDesc = "Patiente quelques minutes, puis réessaie."
+invalidTokenTitle = "Session expirée"
+invalidTokenDesc = "Reconnecte-toi avec Microsoft."
+tokenHasProfileTitle = "Un profil existe déjà"
+tokenHasProfileDesc = "Ce compte possède déjà un profil."
+credentialsMissingTitle = "Identifiants manquants"
+credentialsMissingDesc = "Renseigne les champs nécessaires pour continuer."
+invalidSaltVersionTitle = "Connexion incompatible"
+invalidSaltVersionDesc = "La version du protocole d’authentification est incompatible."
+unsupportedMediaTypeTitle = "Réponse du service incompatible"
+unsupportedMediaTypeDesc = "Le service a renvoyé un format non pris en charge."
+accountGoneTitle = "Compte transféré vers Microsoft"
+accountGoneDesc = "Connecte-toi maintenant avec Microsoft."
+unreachableTitle = "Service de connexion inaccessible"
+unreachableDesc = "Vérifie ta connexion Internet, puis réessaie."
+gameNotPurchasedTitle = "Minecraft Java requis"
+gameNotPurchasedDesc = "Ce compte ne possède pas Minecraft Java. Vérifie ton achat ou utilise le bon compte Microsoft."
+unknownErrorTitle = "Échec de la connexion"
+unknownErrorDesc = "Une erreur est survenue. Consulte la console pour plus de détails."

@@ -1,0 +1,18 @@
+LIMEN Launcher 3.4.1 — SOURCES COMPLETES
+Nyven client 1.6.1 et correctif visuel deja integres.
+
+Copier TOUT le contenu de ce dossier a la racine du depot Limen-MC/launcher,
+y compris .github/ et .gitignore. package.json doit etre a la racine.
+Ne pas envoyer node_modules/, dist/, un fichier .env ou des acces serveur.
+
+Commit, Push, puis GitHub > Actions > Build LIMEN.
+Apres reussite du travail Windows, recuperer Artifacts > LIMEN-Windows.
+Extraire le ZIP pour obtenir LIMEN Launcher-setup-3.4.1.exe.
+
+Les references GitHub et la destination des mises a jour utilisent
+Limen-MC/launcher. Le build produit des artefacts, sans publier de release.
+Pour une mise a jour automatique, une vraie release devra etre publiee
+separement. Aucun fichier de ce ZIP ne va dans les plugins du lobby.
+
+Le correctif visuel ne corrige pas le probleme de lien audio indisponible.
+Aucun executable Windows n'a ete construit ou teste ici.

@@ -1,0 +1,1 @@
+Assemblage complet 3.4.1 avec Nyven 1.6.1. npm ci --ignore-scripts reussi ; npm test : 14 tests reussis. Verification de tous les SHA-256 du pack embarque. Build .exe et essai Windows non effectues ici. Le workflow GitHub utilise Node 22.

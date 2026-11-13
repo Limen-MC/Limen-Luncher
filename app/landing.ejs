@@ -1,0 +1,130 @@
+<div id="landingContainer" style="display: none;">
+    <div class="limenWorldBackdrop"></div>
+    <video class="limenAtmosphere" autoplay muted loop playsinline aria-hidden="true"><source src="assets/brand/videos/Particules_Alpha.webm" type="video/webm"></video>
+    <aside class="limenSidebar" aria-label="Navigation principale">
+        <button id="limenAccountButton" class="limenAvatar" title="Mon compte Microsoft" aria-label="Mon compte Microsoft"><span id="avatarContainer"><span id="avatarOverlay"></span></span><i></i></button>
+        <nav class="limenRail">
+            <button class="limenRailButton active" id="limenHomeButton" aria-label="Accueil LIMEN" title="Accueil LIMEN"><video autoplay muted loop playsinline poster="assets/brand/logos/embleme.png" aria-label="LIMEN"><source src="assets/brand/videos/Embleme_Alpha.webm" type="video/webm"></video></button>
+            <button class="limenRailButton" id="limenNewsButton" aria-label="Actualités" title="Actualités"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h8M8 16h4"/></svg></button>
+            <button class="limenRailButton" id="limenDiscordButton" aria-label="Communauté Discord" title="Communauté Discord"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5 5 6c-2 3-3 6-3 10l5 3 1-2m8-12 3 1c2 3 3 6 3 10l-5 3-1-2M7 16c3 2 7 2 10 0"/><circle cx="8" cy="12" r="1"/><circle cx="16" cy="12" r="1"/></svg></button>
+            <button class="limenRailButton" id="settingsMediaButton" aria-label="Paramètres" title="Paramètres"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 3 2 3-1 2 2 3-1 1-3 3-1 2-3-2-2 1-3-3-2-3 1-2-2Z"/><circle cx="12" cy="12" r="3"/></svg></button>
+        </nav>
+        <button class="limenRailButton limenSidebarBottom" id="limenNotificationsButton" aria-label="Informations" title="Informations"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg><span class="limenNotificationDot"></span></button>
+    </aside>
+    <main class="limenHome">
+        <header class="limenHeader">
+            <div class="limenBreadcrumb">LIMEN <span>/</span> <b>Accueil</b></div>
+            <div class="limenAccountChip"><span class="limenLiveDot"></span><span id="user_text">Mon compte</span><button id="limenAccountEdit" aria-label="Changer de compte">↗</button></div>
+        </header>
+        <section class="limenHero" aria-labelledby="limenHeroTitle">
+            <video class="limenHeroVideo" id="limenHeroVideo" autoplay muted loop playsinline preload="metadata" poster="assets/brand/portail-limen.png"><source src="assets/brand/videos/Particules_Alpha.webm" type="video/webm"></video>
+            <div class="limenHeroShade"></div>
+            <img class="limenHeroWordmark" src="assets/brand/logos/horizontal.png" alt="LIMEN Serveur">
+            <div class="limenHeroContent">
+                <span class="limenEyebrow"><span></span> ENTRE ANGE ET DÉMON</span>
+                <h1 id="limenHeroTitle">LIMEN</h1><p class="limenHeroTagline">Deux mondes. Ta destinée.</p>
+                <p>Un monde à explorer. Une communauté à retrouver.<br>Choisis ta voie et écris la suite de ton histoire.</p>
+                <div class="limenLaunchRow" id="launch_content">
+                    <button id="launch_button" class="limenPlayButton"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg><span>Jouer à LIMEN</span></button>
+                    <button id="limenQuickSettings" class="limenQuickSettings" aria-label="Réglages du jeu" title="Réglages du jeu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 3 2 3-1 2 2 3-1 1-3 3-1 2-3-2-2 1-3-3-2-3 1-2-2Z"/><circle cx="12" cy="12" r="3"/></svg></button>
+                </div>
+                <div id="launch_details" class="limenLaunchDetails" style="display:none"><div id="launch_details_left"><span id="launch_progress_label">0%</span></div><div id="launch_details_right"><progress id="launch_progress" value="0" max="100"></progress><span id="launch_details_text">Préparation…</span></div></div>
+                <div class="limenProfileRow"><button id="server_selection_button">LIMEN Serveur</button><span class="limenVersion" id="limenVersion">Minecraft Java</span></div>
+            </div>
+            <div class="limenHeroFooter"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 2 9 4v6c0 5-9 10-9 10S3 17 3 12V6Z"/><path d="m8 12 3 3 5-6"/></svg> CONNEXION MICROSOFT</span></div>
+        </section>
+        <section class="limenDashboard" aria-label="Actualités et communauté">
+            <div class="limenNewsColumn"><div class="limenSectionHeading"><h2>Dernières nouvelles</h2><button id="limenAllNews">Tout voir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div><button class="limenNewsCard" id="limenFeatureNews"><div class="limenNewsImage"><video autoplay muted loop playsinline preload="metadata" poster="assets/brand/fond.jpg"><source src="assets/brand/videos/Banniere_Boucle_1200x480.mp4" type="video/mp4"></video><span>NOUVEAU CHAPITRE</span></div><div class="limenCardText"><small id="limenNewsLabel">L’AVENTURE LIMEN</small><h3 id="limenNewsTitle">Deux univers. Une seule aventure.</h3><p id="limenNewsText">Retrouve les dernières nouvelles de la communauté.</p></div><span class="limenCardArrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></button></div>
+            <div class="limenCommunityColumn"><div class="limenSectionHeading"><h2>Le serveur</h2><span class="limenServiceTag" id="limenServiceTag">Vérification…</span></div><article class="limenServerCard"><div class="limenServerIdentity"><img src="assets/brand/logos/embleme.png" alt=""><div><h3>LIMEN Serveur</h3><p id="limenServerSummary">Entre ange et démon.</p></div></div><div class="limenServerStats" id="server_status_wrapper"><div><span id="landingPlayerLabel">Serveur</span><strong id="player_count">Vérification…</strong></div><div><span>Plateforme</span><strong>Java Edition</strong></div></div><div class="limenServerLinks"><button id="limenCommunityLink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5 5 6c-2 3-3 6-3 10l5 3 1-2m8-12 3 1c2 3 3 6 3 10l-5 3-1-2M7 16c3 2 7 2 10 0"/><circle cx="8" cy="12" r="1"/><circle cx="16" cy="12" r="1"/></svg> Discord</button><button id="limenWebsiteLink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg> Site web <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div></article></div>
+            <div class="limenShopColumn"><div class="limenSectionHeading"><h2>La boutique</h2></div><article class="limenShopCard"><span class="limenShopIcon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h18l-2-6H5Zm2 0v12h14V9M9 21v-7h6v7"/></svg></span><h3>Soutiens l’aventure.</h3><p>Les avantages et les nouveautés de la boutique LIMEN.</p><button id="limenShopLink">Bientôt disponible <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></article></div>
+        </section>
+        <footer class="limenFooter"><span>LIMEN LAUNCHER <b>•</b> <span id="limenLauncherVersion"></span></span><button id="limenOpenLogs">Journal de lancement</button><button id="limenMotionButton" aria-pressed="false">Pause des animations</button></footer>
+    </main>
+    <section id="limenNewsPage" class="limenNewsPage" aria-labelledby="limenNewsPageTitle" hidden>
+        <header class="limenNewsPageHeader">
+            <button id="limenNewsBack" class="limenBackButton">← Retour à l’accueil</button>
+            <img src="assets/brand/logos/horizontal.png" alt="LIMEN" width="152">
+        </header>
+        <div class="limenNewsPageIntro">
+            <span class="limenEyebrow">LA VIE DU SERVEUR</span>
+            <h1 id="limenNewsPageTitle" tabindex="-1">Les actualités de LIMEN</h1>
+            <p>Annonces, nouveautés et vie de la communauté : retrouve toutes les nouvelles ici.</p>
+        </div>
+        <div class="limenNewsPageToolbar">
+            <span id="limenNewsCount" aria-live="polite"></span>
+            <label for="limenNewsSearch">Rechercher une actualité<input id="limenNewsSearch" type="search" placeholder="Un titre, un sujet…" autocomplete="off"></label>
+        </div>
+        <div class="limenNewsPageGrid">
+            <nav id="limenNewsList" aria-label="Liste des actualités"></nav>
+            <article id="limenNewsArticle" class="limenNewsArticle" aria-labelledby="limenArticleTitle">
+                <div class="limenArticleCover" role="img" aria-label="Le portail entre les deux univers de LIMEN"></div>
+                <div class="limenArticleContent"><span id="limenArticleLabel" class="limenEyebrow"></span><h2 id="limenArticleTitle"></h2><div id="limenArticleBody"></div></div>
+            </article>
+            <p id="limenNewsEmpty" role="status" hidden>Aucune actualité ne correspond à ta recherche.</p>
+        </div>
+    </section>
+    <div id="image_seal_container" class="limenUpdateIndicator"><img id="image_seal" src="assets/brand/logos/embleme.png" alt=""><span id="updateAvailableTooltip">Mise à jour disponible</span></div>
+    <div class="limenLegacyHooks" aria-hidden="true"><button id="newsButton"><span id="newsButtonAlert"></span><span id="newsButtonSVG"></span><span id="newsButtonText"></span></button><span id="mojang_status_icon"></span><div id="mojangStatusEssentialContainer"></div><div id="mojangStatusNonEssentialContainer"></div></div>
+    <dialog id="limenInfoDialog"><button class="limenDialogClose" id="limenDialogClose" aria-label="Fermer">×</button><span class="limenEyebrow">LIMEN / INFORMATIONS</span><h2 id="limenDialogTitle"></h2><div id="limenDialogText"></div></dialog>
+    <div class="limenToast" role="status" id="limenToast"></div>
+    <div id="newsContainer">
+        <div id="newsContent" article="-1" style="display: none;">
+            <div id="newsStatusContainer">
+                <div id="newsStatusContent">
+                    <div id="newsTitleContainer">
+                        <a id="newsArticleTitle" href="#">Lorem Ipsum</a>
+                    </div>
+                    <div id="newsMetaContainer">
+                        <div id="newsArticleDateWrapper">
+                            <span id="newsArticleDate">Mar 15, 44 BC, 9:14 AM</span>
+                        </div>
+                        <div id="newsArticleAuthorWrapper">
+                            <span id="newsArticleAuthor">by Cicero</span>
+                        </div>
+                        <a href="#" id="newsArticleComments">0 Comments</a>
+                    </div>
+                </div>
+                <div id="newsNavigationContainer">
+                    <button id="newsNavigateLeft">
+                        <svg id="newsNavigationLeftSVG" viewBox="0 0 24.87 13.97">
+                            <defs>
+                                <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;transition: 0.25s ease;}</style>
+                            </defs>
+                            <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                        </svg>
+                    </button>
+                    <span id="newsNavigationStatus"><%- lang('landing.newsNavigationStatus', { currentPage: 1, totalPages: 1 }) %></span>
+                    <button id="newsNavigateRight">
+                        <svg id="newsNavigationRightSVG" viewBox="0 0 24.87 13.97">
+                            <defs>
+                                <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;transition: 0.25s ease;}</style>
+                            </defs>
+                            <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="newsArticleContainer">
+                <div id="newsArticleContent">
+                    <div id="newsArticleContentScrollable">
+                        <!-- Article Content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="newsErrorContainer">
+            <div id="newsErrorLoading">
+                <span id="nELoadSpan" class="newsErrorContent"><%- lang('landing.newsErrorLoadSpan') %></span>
+            </div>
+            <div id="newsErrorFailed" style="display: none;">
+                <span id="nEFailedSpan" class="newsErrorContent"><%- lang('landing.newsErrorFailedSpan') %></span>
+                <button id="newsErrorRetry"><%- lang('landing.newsErrorRetryButton') %></button>
+            </div>
+            <div id="newsErrorNone" style="display: none;">
+                <span id="nENoneSpan" class="newsErrorContent"><%- lang('landing.newsErrorNoneSpan') %></span>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/scripts/landing.js"></script>
+    <script src="./assets/js/scripts/limen-ui.js"></script>
+</div>
